@@ -1,7 +1,7 @@
 const works = [
     {
         title: "E-Cell MITAOE Official website",
-        link: "https://ayushnandanwar08.github.io/ecell-website/",
+        link: "https://ayushnandanwar.github.io/ecell-website/",
         image: "images/work-3.png"
       },
     {

@@ -2,26 +2,26 @@ const projectData = [
 
     {
         title: "Hack2Bot An AI Chatbot",
-        link: "https://github.com/ayushnandanwar08/Hack2Bot-AI-Chatbot",
+        link: "https://github.com/ayushnandanwar/Hack2Bot-AI-Chatbot",
         image: "images/project-3.png"
       },
       {
         title: "Basic Banking System",
-        link: "https://github.com/ayushnandanwar08/Basic-Banking-System-The-Sparks-Foundation",
+        link: "https://github.com/ayushnandanwar/Basic-Banking-System-The-Sparks-Foundation",
         image: "images/project-4.png"
       },{
         title: "MITAOE Mozilla Website Clone",
-        link: "https://ayushnandanwar08.github.io/mitaoe-mozilla-equilibrium/index.html",
+        link: "https://ayushnandanwar.github.io/mitaoe-mozilla-equilibrium/index.html",
         image: "images/project-5.png"
       },
       {
         title: "Bike Rental System",
-        link: "https://github.com/ayushnandanwar08/Bike-Rental-Management-System",
+        link: "https://github.com/ayushnandanwar/Bike-Rental-Management-System",
         image: "images/project-2.png"
       },
     {
       title: "Club Management System",
-      link: "https://github.com/ayushnandanwar08/Bike-Rental-Management-System",
+      link: "https://github.com/ayushnandanwar/clubs-mitaoe",
       image: "images/project-1.png"
     },
     
