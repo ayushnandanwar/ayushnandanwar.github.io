@@ -108,9 +108,9 @@
           <div class="col-lg-6">
             <div class="text-container">
               <h1 class="h1-large">Hi, I am Ayush Nandanwar</h1>
-              <h2 class="text-white">A Developer & Cloud Enthusiast</h2>
+              <h2 class="text-white">A Software Developer</h2>
               <a class="btn-solid-lg page-scroll" href="AyushCV.pdf" download=""
-                >My Resume</a
+                >Download CV</a
               >
               <a class="btn-outline-lg page-scroll" href="#contact"
                 ><i class="fas fa-user"></i>Contact Me</a
@@ -136,7 +136,7 @@
               <h2>About Me</h2>
               <p class="text-justify h5" style="line-height: 190%">
                 I'm an undergraduate student at MIT Academy of Engineering
-                Studying Computer Engineering. Proficient in HTML, CSS, JS and
+                Studying Computer Engineering. Proficient in NodeJs, Python and
                 various computer science technologies. I've worked on numerous
                 tasks with NodeJs and am well-versed in JavaScript. Aside from
                 Web Development, I'm investigating the Cloud World on the AWS
@@ -152,7 +152,12 @@
               <div class="col-lg-12">
                 <div class="text-container second">
                   <div class="border-top  rounded-lg p-3">
-                    <div class="time h5">July 2023 - Present(YLIP Internship)</div>
+                    <div class="time h5">Jan 2023 - Present</div>
+                    <h4 class="mb-3">Technical Intern</h4>
+                    <p class="h6 mb-0">Onlinesales.ai, Pune</p>
+                  </div>
+                  <div class="border-top  rounded-lg p-3">
+                    <div class="time h5">July 2023 - Dec 2023</div>
                     <h4 class="mb-3">RPA Developer</h4>
                     <p class="h6 mb-0">Colgate Palmolive, Mumbai</p>
                   </div>
@@ -188,18 +193,6 @@
         <div class="row">
           <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="skill-item">
-              <i class="fab fa-cuttlefish"></i>
-              <h4>C++</h4>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="skill-item">
-              <i class="fab fa-java"></i>
-              <h4>Java</h4>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="skill-item">
               <i class="fab fa-js"></i>
               <h4>JavaScript</h4>
             </div>
@@ -212,8 +205,8 @@
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="skill-item">
-              <i class="fab fa-react"></i>
-              <h4>React.js</h4>
+              <i class="fab fa-python"></i>
+              <h4>Python</h4>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6">
@@ -363,9 +356,8 @@
                   return;
                 }
 
-                let res = await fetch("http://65.0.100.6:8080/", {
+                let res = await fetch("http://ec2-65-0-100-6.ap-south-1.compute.amazonaws.com:8080/", {
                   method: "POST",
-                  mode: "no-cors",
                   headers: {
                     "Content-Type": "application/json",
                   },
