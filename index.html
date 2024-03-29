@@ -357,10 +357,9 @@
                   return;
                 }
 
-                let res = await fetch("http://ec2-65-0-100-6.ap-south-1.compute.amazonaws.com:8080/", {
+                let res = await fetch("http://ec2-65-0-100-6.ap-south-1.compute.amazonaws.com:8080", {
                   method: "POST",
                   headers: {
-                    "Content-Security-Policy": "upgrade-insecure-requests",
                     "Content-Type": "application/json",
                   },
                   body: JSON.stringify({ name, phone, email, message }),
