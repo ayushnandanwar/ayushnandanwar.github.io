@@ -6,19 +6,20 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Your description" />
-    <meta name="author" content="Your name" />
+    <meta name="description" content="Ayush" />
+    <meta name="author" content="Ayush Nandanwar" />
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
     <meta property="og:site_name" content="" />
     <!-- website name -->
-    <meta property="og:site" content="" />
+    <meta property="og:site" content="ayushnandanwar.github.io" />
     <!-- website link -->
-    <meta property="og:title" content="" />
+    <meta property="og:title" content="Ayush Nandanwar" />
     <!-- title shown in the actual shared post -->
-    <meta property="og:description" content="" />
+    <meta property="og:description" content="Ayush" />
     <!-- description shown in the actual shared post -->
     <meta property="og:image" content="" />
     <!-- image link, make sure it's jpg -->
@@ -359,6 +360,7 @@
                 let res = await fetch("http://ec2-65-0-100-6.ap-south-1.compute.amazonaws.com:8080/", {
                   method: "POST",
                   headers: {
+                    "Content-Security-Policy": "upgrade-insecure-requests",
                     "Content-Type": "application/json",
                   },
                   body: JSON.stringify({ name, phone, email, message }),
