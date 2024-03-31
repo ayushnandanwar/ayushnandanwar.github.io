@@ -352,14 +352,13 @@
                 let email = document.getElementById("cemail").value;
                 let message = document.getElementById("cmessage").value;
 
-                if (name == "" || phone == "" || email == "" || message == "") {
+                if (name === "" || phone === "" || email === "" || message === "") {
                   alert("Please fill all the fields!");
                   return;
                 }
 
                 let res = await fetch("http://ec2-65-0-100-6.ap-south-1.compute.amazonaws.com:8080", {
                   method: "POST",
-                  referrerPolicy: "unsafe_url",
                   headers: {
                     "Content-Type": "application/json",
                   },
