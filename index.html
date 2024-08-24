@@ -378,27 +378,34 @@
                   alert("Please fill all the fields!");
                   return;
                 }
-
-                let res = await fetch("https://ec2-65-0-100-6.ap-south-1.compute.amazonaws.com", {
+                try {
+                  let res = await fetch("https://ayushnandanwar.zapto.org", {
                   method: "POST",
                   headers: {
                     "Content-Type": "application/json",
                   },
                   body: JSON.stringify({ name, phone, email, message }),
                 });
-                let data = await res.json();
+                let data = await res.json() ; 
                 if (!data.success) {
                   alert(
                     "Sorry! There is an error while submitting the data. Please Try again"
                   );
                   return;
                 }
-
                 alert("Thanks for contacting! 😊 I will get back to you soon.");
                 document.getElementById("cname").value = "";
                 document.getElementById("cmobile").value = "";
                 document.getElementById("cemail").value = "";
                 document.getElementById("cmessage").value = "";
+                } catch (error) {
+                  alert(
+                    "Sorry! There is an error while submitting the data. Please Try again"
+                  );
+                }
+                
+
+                
               };
             </script>
             <!-- end of contact form -->
