@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Ayush Nandanwar
 
-### Senior Software Engineer | Product Engineer | AdTech & MarTech
+### Senior Software Engineer | Backend Engineering | AdTech & MarTech
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=650&lines=Building+Scalable+Software+Systems;Engineering+Products+That+Matter;Passionate+About+Distributed+Systems;Turning+Ideas+Into+Products" alt="Typing SVG" />
 
@@ -73,9 +73,9 @@ I enjoy working across the engineering lifecycle — from understanding product 
   <tr>
     <td width="50%" valign="top">
       <h3>📚 India PYQ Platform</h3>
-      <p>A learning platform designed to help students prepare for competitive examinations through previous-year questions, practice sessions, and focused learning experiences.</p>
-      <p><strong>Tech:</strong> Next.js · JavaScript · Supabase</p>
-      <a href="https://github.com/ayushnandanwar/india-pyq-platform">View Repository</a>
+      <p>A backend engineering reference project focused on reliable asynchronous event processing, durable acceptance, idempotency, retries, and operational visibility.</p>
+      <p><strong>Tech:</strong> Node.js · TypeScript · PostgreSQL · Redis · BullMQ</p>
+      <a href="https://github.com/ayushnandanwar/ayush-code-base">View Repository</a>
     </td>
     <td width="50%" valign="top">
       <h3>⌨️ KeyFlows</h3>
@@ -116,7 +116,7 @@ I enjoy working across the engineering lifecycle — from understanding product 
 | Area | Focus |
 |---|---|
 | Product Engineering | Building impactful software products |
-| Backend Engineering | Scalable APIs and distributed systems |
+| Backend Engineering | API design, asynchronous processing, reliability and distributed systems |
 | System Design | High availability and performance |
 | Database Engineering | Efficient data modeling and optimization |
 | AI Engineering | AI-powered development workflows |
