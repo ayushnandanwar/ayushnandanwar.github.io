@@ -72,12 +72,6 @@ I enjoy working across the engineering lifecycle — from understanding product 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>⚙️ Relay — Event Processing API</h3>
-      <p>A backend engineering reference project focused on reliable asynchronous event processing, durable acceptance, idempotency, retries, and operational visibility.</p>
-      <p><strong>Tech:</strong> Node.js · TypeScript · PostgreSQL · Redis · BullMQ</p>
-      <a href="https://github.com/ayushnandanwar/ayush-code-base">View Repository</a>
-    </td>
-    <td width="50%" valign="top">
       <h3>⌨️ KeyFlows</h3>
       <p>A typing practice platform that helps users improve typing speed, accuracy, and everyday productivity.</p>
       <p><strong>Tech:</strong> HTML · CSS · JavaScript</p>
